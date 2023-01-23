@@ -12,7 +12,8 @@ Welcome to FFN, an iOS app built using Swift and Xcode.
 - Firebase Authentication
 - Reset Password through email
 - Home page - clean toolbar and design
-- Settings to take all of users information
+- Settings to take all of user's information
+- AppStorage
 
 
 
