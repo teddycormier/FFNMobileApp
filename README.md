@@ -8,7 +8,7 @@ Welcome to FFN, an iOS app built using Swift and Xcode.
 
 ## **Features**
 
-- Splash-screen
+- Splashscreen
 - Firebase Authentication
 - Reset Password through email
 - Home page - clean toolbar and design
