@@ -1,0 +1,52 @@
+//
+//  StoreView.swift
+//  FemaleFanNation
+//
+//  Created by teddy cormier on 1/5/23.
+//
+
+import SwiftUI
+
+struct StoreView: View {
+    @State private var selectedTab: Tab = .cart
+    
+    @AppStorage(UserSettings.usernameKey) var username = ""
+    @AppStorage(UserSettings.membershipKey) var isMembership = false
+    
+    init() {
+        UITabBar.appearance().isHidden = true
+    }
+    
+    var body: some View {
+        NavigationView {
+            Form {
+            }
+            .navigationTitle("Store")
+            .toolbar {
+                ToolbarItemGroup(placement: .navigationBarLeading) {
+                    if (isMembership) {
+                        Text("Premium Member")
+                            .font(.caption)
+                            .foregroundColor(Color(.systemGray))
+                    }
+                    else {
+                        Text("Basic Member")
+                            .font(.caption)
+                            .foregroundColor(Color(.systemGray))
+                    } 
+                }
+                ToolbarItemGroup(placement: .navigationBarTrailing) {
+                    TextField("", text: $username)
+                        .foregroundColor(Color(.systemGray))
+                        .padding(.all)
+                }
+            }
+        }
+    }
+}
+
+struct StoreView_Previews: PreviewProvider {
+    static var previews: some View {
+        StoreView()
+    }
+}

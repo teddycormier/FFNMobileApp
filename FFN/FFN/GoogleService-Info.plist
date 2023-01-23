@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>824814299777-7d483k9bp9vt9jv95kassm10krour61m.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.824814299777-7d483k9bp9vt9jv95kassm10krour61m</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAexmZ_g_6Yfif3FIqahR9get1MGQtpJUs</string>
+	<key>GCM_SENDER_ID</key>
+	<string>824814299777</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.teddycormier.FemaleFanNation</string>
+	<key>PROJECT_ID</key>
+	<string>ffn2-6937a</string>
+	<key>STORAGE_BUCKET</key>
+	<string>ffn2-6937a.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:824814299777:ios:1227b4008611e7df95bb80</string>
+</dict>
+</plist>
